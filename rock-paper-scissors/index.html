@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rock Paper Scissors Game</title>
+    <link href="./css/style.css" rel="stylesheet" type="text/css" media="all">
+</head>
+
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>Let's Play</h1>
+            <h2>🙍🏻‍♂️ You take the first move. 🤖 I will take mine!</h2>
+        </div>
+        <hr />
+        <div class="score-board-wrap">
+            <h3>Score Board</h3>
+            <div class="score-board">
+                <div class="number-board line">
+                    <div class="player">User</div>
+                    <div class="player">Robot XD</div>
+                </div>
+                <div class="number-board">
+                    <div class="count" id="user-win">0</div>
+                    <div class="count" id="robot-win">0</div>
+                </div>
+            </div>
+        </div>
+        <div class="symbols">
+            <div class="sign" data-sign="rock">
+                <img src="./images/rock.webp" alt="Rock" />
+            </div>
+            <div class="sign" data-sign="paper">
+                <img src="./images/Paper.webp" alt="Paper" />
+            </div>
+            <div class="sign" data-sign="scissors">
+                <img src="./images/Scissors.webp" alt="Scissors" />
+            </div>
+        </div>
+        <hr>
+        <div class="message">Click on the icons to start you first move!</div>
+    </div>
+    <script src="./js/game.js"></script>
+</body>
+
+</html>
